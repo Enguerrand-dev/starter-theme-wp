@@ -1,7 +1,3 @@
-:root {
-  --cl-base: red;
-}
-
 /* Box sizing rules */
 *,
 *::before,
@@ -24,8 +20,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -68,17 +64,11 @@ select {
   }
 
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/*# sourceMappingURL=app.css.map */

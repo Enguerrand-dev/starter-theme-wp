@@ -2,8 +2,8 @@
 
 function ev_scripts_styles()
 {
-
-    wp_enqueue_script('jquery'); // just enqueue as its already registered 
+    // just enqueue as its already registered 
+    wp_enqueue_script('jquery');
     /* 
     -------
     REGISTER ALL JS FOR SITE

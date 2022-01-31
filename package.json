@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev:watch": "sass --watch scss/_main.scss:./public/css/app.css --style expanded",
     "prod:compressed": "sass scss/_main.scss:./public/css/prod-app.css --style compressed"
   },

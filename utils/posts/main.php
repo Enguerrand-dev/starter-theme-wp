@@ -7,3 +7,5 @@
     -------
 */
 // require 'custom-*.php';
+
+require 'custom-cours.php';
